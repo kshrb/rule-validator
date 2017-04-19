@@ -4,7 +4,7 @@
   "description": "Validate information against rules",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -14,10 +14,28 @@
     "Rule",
     "Engine"
   ],
-  "author": "kshrbhalerao5@gmail.com",
+  "author": {
+    "name": "Kishor Bhalerao",
+    "email": "kshrbhalerao5@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kshrb/rule-validator/issues"
   },
-  "homepage": "https://github.com/kshrb/rule-validator"
+  "homepage": "https://github.com/kshrb/rule-validator",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.36"
+  }
 }
