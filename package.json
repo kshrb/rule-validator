@@ -1,0 +1,23 @@
+{
+  "name": "rule-validator",
+  "version": "1.0.0",
+  "description": "Validate information against rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kshrb/rule-validator.git"
+  },
+  "keywords": [
+    "Rule",
+    "Engine"
+  ],
+  "author": "kshrbhalerao5@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kshrb/rule-validator/issues"
+  },
+  "homepage": "https://github.com/kshrb/rule-validator"
+}
